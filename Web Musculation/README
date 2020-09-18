@@ -1,0 +1,16 @@
+annonce:
+- vous pouvez créer une base de donnée MySQL par fichier "Musculation.txt" ou par lancer "create_db.py"
+- images sur Internet et description par wikipédia 
+- Si vous avez un "RuntimeError: cryptography is required for sha256_password or caching_sha2_password", vous devez installer python module "cryptography".
+
+fonctionnalités réalisées:
+- Importer votre login et password MySQL
+- Afficher/Ajouter/Supprimer/Rechercher des datas dans base de donnée
+- Changer ordre par ID, ID INVERSE, NOM, NOM INVERSE
+- Surligner mot recherché
+- Contrôle d'erreur (Quand vous supprimez sans ID)(Quand vous écrivez des caractères spéciaux)
+
+petite problème:
+- fenêtres flash apparaît un peu hors contrôle, il apparîte dans tous les fois d'ouvrir la page "Rechercher" (ça peut-être parce qu'il ne passe pas de paramètre dans initialisation)(je n'ai pas trouvé de bonne solution. Mon idée : ajouter une auto action "ReR" avec textRe="" ordre="id"?)
+- les text entre % blabla % va affichier sur la page "Ajouter/Supprimer" et "Rechercher" original (peut-être la même raison qu'avant)
+- boutton "règle d'utilise" ne fonctionne pas sur la page "Ajouter/Supprimer" (mais je fais du copier coller!)
