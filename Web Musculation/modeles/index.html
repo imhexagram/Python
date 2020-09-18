@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Muscul-site</title>
+    </head>
+        <body>
+            <header>
+			<h1>Muscul-site</h1>
+            <h3>Un appli web pour un amateur de musculation</h3>
+			<hr/>
+			</header>
+			<p1>Bonjour, bienvenu dans notre site! Ici vous pouvez créer votre programme de formation et voir les programme d'autre personne.</p1>
+			<button type="submit" onclick="help()">règle d'utilise</button><br/><hr/>
+			<script>
+				function help(){
+					alert("Quand vous ajoutez, pas besoin de ID. Quand vous supprimez, complétez seulement ID.\nN'écrivez pas des caractères spéciaux.\nQuand vous créez une programme, vous pouvez écrire plusieurs ID de parcitipant et d'exercice, séparer avec <;>, mais au moins écrire un ID de parcitipant.\nTous les input texts de <nom> ou <prénom> ne pouvent pas être null.")
+				}
+			</script>
+			<a href="/index">Accueil</a>
+			<a href="/static/AS.html">Ajouter/Supprimer</a>
+			<a href="/static/Rechercher.html">Rechercher</a>
+			</br><hr/>
+			<form method="get" action="../ReR">
+			Quand vous cliquez les buttons, il va sauter à la page "Rechercher". Vous voulez les résultas ordre par ? 
+				<input name="ordre" type="radio" value="id" checked="checked"/>ID
+				<input name="ordre" type="radio" value="id desc" />ID inverse
+				<input name="ordre" type="radio" value="nom" />Nom
+				<input name="ordre" type="radio" value="nom desc" />Nom inverse
+				<hr/>
+			<p><img src="images/traction.jpg" alt="traction" align="left" width="200" height="150">La traction est un exercice physique consistant à hisser ses épaules au niveau d'une barre en la tenant par les mains. Les tractions ont pour objectif principal le développement des muscles du dos et des bras. C'est un exercice polyarticulaire de musculation, élémentaire et très populaire, car simple et efficace. Il existe une variante consistant à faire l'exercice horizontalement.</p>
+            <button type="submit" name="textRe" value="traction">traction</button></br></br></br></br></br></br>
+			<p><img src="images/squat.jpg" alt="squat" align="left" width="200" height="150">A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. During the descent of a squat, the hip and knee joints flex while the ankle joint dorsiflexes; conversely the hip and knee joints extend and the ankle joint plantarflexes when standing up.
+			Squats are considered a vital exercise for increasing the strength and size of the lower body muscles as well as developing core strength. The primary agonist muscles used during the squat are the quadriceps femoris, the adductor magnus, and the gluteus maximus. The squat also isometrically uses the erector spinae and the abdominal muscles, among others.
+			The squat is one of the three lifts in the strength sport of powerlifting, together with the deadlift and the bench press. It is also considered a staple exercise in many popular recreational exercise programs. </p>
+			<button type="submit" name="textRe" value="squat">squat</button></br></br></br></br></br></br>
+			<p><img src="images/développé couché.jpg" alt="développé couché" align="left" width="200" height="150">Le développé couché est un exercice poly-articulaire de force et de musculation qui consiste à soulever et abaisser une barre d'haltères, développant principalement les pectoraux et les triceps, mais qui sollicite également d'autres muscles comme le grand dorsal, le grand rond, les trapèzes, les deltoïdes antérieurs et les biceps. C'est un des trois mouvements de base de la force athlétique avec les flexions sur jambe et le soulevé de terre. </p>
+			<button type="submit" name="textRe" value="développé couché">développé couché</button></br></br></br></br></br></br>
+			<p><img src="images/gainage.jpg" alt="gainage" align="left" width="200" height="150">Le gainage est un entraînement physique et de musculation qui permet de renforcer les muscles abdominaux et dorsaux. Réalisés en isométrie, ces exercices sollicitent les muscles de l'abdomen et du dos en profondeur, et participent au maintien et à la protection de la colonne vertébrale. Le gainage est utilisé en préparation physique dans de nombreux sports, ainsi que lors de différentes activités telles que le Pilates et le yoga. </p>
+			<button type="submit" name="textRe" value="gainage">gainage</button></br></br></br></br></br></br>
+			<p><img src="images/soulevé de terre.jpg" alt="soulevé de terre" align="left" width="200" height="150">Le soulevé de terre est un exercice polyarticulaire de force et de musculation. Très complet, il permet, selon la variante exécutée et entre autres, le développement des fessiers, des ischio-jambiers, des muscles érecteurs du rachis, et, plus globalement, de l'ensemble du dos. Comme la plupart des exercices de tirage, il peut aussi entraîner un travail notable des avant-bras. C'est l'un des trois mouvements de base de la force athlétique, avec les flexions sur jambes et le développé couché. </p>
+			<button type="submit" name="textRe" value="soulevé de terre">soulevé de terre</button></br></br></br></br></br></br>
+			</from>
+			</br></br>
+            <footer>
+			<hr/>
+            <h3>Soyer fort(e)!!! </h3>
+			<p id="auteur">@2020 R&T Ziyi LIU</p>
+			</footer>
+        </body>
+</html>
